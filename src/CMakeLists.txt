@@ -7,8 +7,11 @@ set(SOURCE
 
         )
 set(INCLUDE
-        ${MY_DIRECTORY}/
-        ${MY_DIRECTORY}/
+        ${MY_DIRECTORY}/dog.h
+        ${MY_DIRECTORY}/talent.h
+        ${MY_DIRECTORY}/counting.h
+        ${MY_DIRECTORY}/dancing.h
+        ${MY_DIRECTORY}/swimming.h
         )
 
 

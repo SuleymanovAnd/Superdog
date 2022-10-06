@@ -1,6 +1,9 @@
 #include <iostream>
+#include "dog.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    //создаем собаку с именем "Изюм"
+    Dog franchBuldog ("Izume",true,false,true);
+
+    franchBuldog.show_talents();
 }
