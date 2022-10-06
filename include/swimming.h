@@ -9,4 +9,6 @@ public:
     virtual void action () {
 
     }
+
+    ~Swimming() = default;
 };

@@ -13,11 +13,12 @@ Counting * countingTalent;
 Swimming * swimmingTalent;
 
 public:
-    Dog () {};
-    Dog (std::string name) : dogName(name) {};
+    Dog () {dogName = "Tuzik", age = 1;}
+    Dog (std::string name) : dogName(name) { age = 1 ;}
     Dog (std::string name, int inAge) : dogName(name), age(inAge){};
     Dog (std::string name, bool haveDancing, bool haveSwimming, bool haveCounting):dogName(name)
     {
+        age = 1;
         if (haveDancing) {
             dancingTalent = new Dancing ();
             talents.push_back (dancingTalent->getTalentName());
@@ -40,5 +41,6 @@ public:
         std::cout << std::endl;
     }
 
+    ~Dog() = default;
 
 };

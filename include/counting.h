@@ -11,4 +11,5 @@ public:
     virtual void action () {
 
     }
+    ~Counting() = default;
 };

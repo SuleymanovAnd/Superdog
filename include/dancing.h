@@ -10,4 +10,5 @@ public:
     virtual void action () {
 
     }
+    ~Dancing() = default;
 };

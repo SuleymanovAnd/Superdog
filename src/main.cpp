@@ -3,7 +3,9 @@
 
 int main() {
     //создаем собаку с именем "Изюм"
-    Dog franchBuldog ("Izume",true,false,true);
+    Dog* frenchBulldog = new Dog ("Izume",true,false,true);
 
-    franchBuldog.show_talents();
+    frenchBulldog->show_talents();
+
+    delete frenchBulldog;
 }
