@@ -3,9 +3,12 @@
 
 int main() {
     //создаем собаку с именем "Изюм"
-    Dog* frenchBulldog = new Dog ("Izume",true,false,true);
+    Dog frenchBulldog ("Izume");
 
-    frenchBulldog->show_talents();
+    frenchBulldog.addTalent("Swimming","Dancing","counting");
 
-    delete frenchBulldog;
+    frenchBulldog.show_talents();
+
+
+
 }
