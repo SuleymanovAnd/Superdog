@@ -10,11 +10,5 @@ public:
 
     }
 
-    virtual void setNewTalent (std::string inTalent){
-        if (inTalent == "Swimming"|| inTalent == "swimming") {
-            talents.emplace_back("Swimming");
-        }
-    }
-
     ~Swimming() = default;
 };

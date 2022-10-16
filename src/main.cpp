@@ -3,12 +3,12 @@
 
 int main() {
     //создаем собаку с именем "Изюм"
-    Dog frenchBulldog ("Izume");
+    Swimming swimming;
+    Dancing dancing;
+    Dog frenchBulldog;
 
-    frenchBulldog.addTalent("Swimming","Dancing","counting");
-
+    frenchBulldog.addTalent(&swimming );
+    frenchBulldog.addTalent(&dancing );
     frenchBulldog.show_talents();
-
-
 
 }

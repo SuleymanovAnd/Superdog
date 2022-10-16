@@ -4,7 +4,6 @@ class Talent {
 
 protected:
     std::string talentName;
-    std::vector <std::string> talents;
     virtual void action () = 0;
 
 public:
@@ -12,12 +11,8 @@ public:
         return talentName;
     }
 
-    virtual void setNewTalent (std::string inTalent) = 0;
+   Talent (){
 
-   void printTalents (){
-       for (int i = 0; i , talents.size(); i++){
-           std::cout << "It can : "<< talents[i] << std::endl;
-       }
    }
 
 
